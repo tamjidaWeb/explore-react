@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
 import Actor from './Actor'
+import Singer from './Singer'
 
 function App() {
   const actors = ['sakib', 'Shoriful Raj','Salman Shah', 'Manna', 'Jasim']
