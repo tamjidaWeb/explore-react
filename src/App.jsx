@@ -8,6 +8,16 @@ import Singer from './Singer'
 import BookStore from './BookStore'
 
 function App() {
+
+
+  const books = [
+    {id:1, name: 'physics', price: 100},
+    {id:2, name: 'Chemistry', price: 120},
+    {id:3, name: 'Math', price: 80},
+    {id:4, name: 'Biology', price: 122},
+  ]
+
+
   const actors = ['sakib', 'Shoriful Raj','Salman Shah', 'Manna', 'Jasim']
   const singers = [
     {id:1,name: 'Dr. Mahfuzur Rahman', age: 68},
