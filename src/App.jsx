@@ -20,7 +20,7 @@ function App() {
       <h1>Vite + React</h1>
 
     {
-      singers.map(singer => <Singer></Singer>)
+      singers.map(singer => <Singer singer={singer}></Singer>)
     }
 
 
