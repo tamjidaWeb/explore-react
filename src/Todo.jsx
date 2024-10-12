@@ -68,9 +68,12 @@
 
 //conditional rendering option 6
 export default function Todo({task, isDone}){
+            let listItem ;
             if(isDone){
-                return <li>Finished: {task}</li>
+                listItem= <li>Finished: {task}</li>
             }
-            return <li>Work on: {task}</li>
-        
+            else{
+                listItem = <li>Work on: {task}</li>
+            }
+        return listItem;
         }
