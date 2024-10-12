@@ -6,6 +6,7 @@ import Todo from './Todo'
 import Actor from './Actor'
 import Singer from './Singer'
 import BookStore from './BookStore'
+import Book from './Book'
 
 function App() {
 
@@ -30,15 +31,15 @@ function App() {
     <>
       <h1>Vite + React</h1>
 
+    <BookStore books={books}></BookStore>
+
+
+
+
+
     {
       singers.map(singer => <Singer singer={singer}></Singer>)
     }
-
-
-
-
-
-
 
 
 
