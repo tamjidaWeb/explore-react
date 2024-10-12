@@ -9,15 +9,28 @@ import Singer from './Singer'
 function App() {
   const actors = ['sakib', 'Shoriful Raj','Salman Shah', 'Manna', 'Jasim']
   const singers = [
-    {name: 'Dr. Mahfuzur Rahman', age: 68},
-    {name:'Eva Rahman', age: 38},
-    {name: 'Pritom', age: 29},
+    {id:1,name: 'Dr. Mahfuzur Rahman', age: 68},
+    {id:2,name:'Eva Rahman', age: 38},
+    {id:3,name: 'Pritom', age: 29},
 
   ]
   
   return (
     <>
       <h1>Vite + React</h1>
+
+    {
+      singers.map(singer => <Singer></Singer>)
+    }
+
+
+
+
+
+
+
+
+
       <Actor name={'Bappa Raz'}></Actor>
       {
         actors.map(actor =><Actor name={actor}></Actor>)
