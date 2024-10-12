@@ -7,12 +7,19 @@ import Actor from './Actor'
 
 function App() {
   const actors = ['sakib', 'Shoriful Raj','Salman Shah', 'Manna', 'Jasim']
+  const singers = [
+    {name: 'Dr. Mahfuzur Rahman', age: 68},
+    {name:'Eva Rahman', age: 38},
+    {name: 'Pritom', age: 29},
+
+  ]
+  
   return (
     <>
       <h1>Vite + React</h1>
       <Actor name={'Bappa Raz'}></Actor>
       {
-        actors.map(actor =><Actor></Actor>)
+        actors.map(actor =><Actor name={actor}></Actor>)
       }
       {/* <Todo 
       task='Learn React' 
