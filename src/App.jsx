@@ -6,7 +6,7 @@ import Todo from './Todo'
 import Actor from './Actor'
 
 function App() {
-  const actors = ['sakib', 'Shoriful Raj', 'Manna', 'Jasim']
+  const actors = ['sakib', 'Shoriful Raj','Salman Shah', 'Manna', 'Jasim']
   return (
     <>
       <h1>Vite + React</h1>
